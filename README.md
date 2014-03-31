@@ -33,6 +33,8 @@ module.exports = function(grunt) {
             }
         }
     });
+
+    grunt.loadNpmTasks('grunt-cowsay');
     grunt.registerTask('moo', 'Make the cow say moo!', ['cowsay:moo']);
 }
 ```
