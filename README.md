@@ -29,7 +29,9 @@ module.exports = function(grunt) {
     grunt.initConfig({
         cowsay: {
             moo: {
-                message: 'Moo!'
+                options: {
+                    message: 'Moo!'
+                }
             }
         }
     });
